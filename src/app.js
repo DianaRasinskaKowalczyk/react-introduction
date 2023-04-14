@@ -1,9 +1,11 @@
-import React from 'react';
-import { createRoot } from 'react-dom/client';
+import React from "react";
+import { createRoot } from "react-dom/client";
+import { Header } from "./components/header/Header";
 
+const App = () => {
+	return <Header />;
+};
 
-const App = () => <h1>Hello World</h1>;
-
-const root = createRoot(document.querySelector('#root'));
+const root = createRoot(document.querySelector("#root"));
 
 root.render(<App />);
