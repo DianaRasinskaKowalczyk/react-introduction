@@ -11,12 +11,4 @@ const Menu = props => {
 	return <ul style={styles}>{menuArray}</ul>;
 };
 
-Menu.defaultProps = {
-	styles: {
-		listStyle: "none",
-		display: "flex",
-		justifyContent: "space-between",
-	},
-};
-
 export default Menu;

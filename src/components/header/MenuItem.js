@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "../content/utils/Link";
+import Link from "../utils/Link";
 
 const MenuItem = props => {
 	const { url, text, styles } = props;
@@ -13,7 +13,7 @@ const MenuItem = props => {
 
 MenuItem.defaultProps = {
 	styles: {
-		fontSize: "20px",
+		fontSize: "25px",
 		marginRight: "50px",
 	},
 };

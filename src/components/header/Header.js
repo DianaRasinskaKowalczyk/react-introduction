@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "./Logo";
-import Link from "../content/utils/Link";
+import Link from "../utils/Link";
 import Nav from "./Nav";
 
 export class Header extends React.Component {
