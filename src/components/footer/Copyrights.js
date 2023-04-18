@@ -13,6 +13,7 @@ Copyrights.defaultProps = {
 	styles: {
 		fontSize: "12px",
 		color: "grey",
+		marginLeft: "30px",
 	},
 };
 
