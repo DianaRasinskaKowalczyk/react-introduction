@@ -1,6 +1,6 @@
 import React from "react";
 import Copyrights from "./Copyrights";
-import Nav from "../header/Nav";
+import Nav from "../utils/Nav";
 
 const Footer = props => {
 	const { styles } = props;

@@ -11,9 +11,9 @@ const Category = props => {
 	};
 
 	return (
-		<section>
+		<aside>
 			<Menu menuItems={content} styles={categoryStyles} />
-		</section>
+		</aside>
 	);
 };
 

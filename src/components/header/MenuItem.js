@@ -15,6 +15,7 @@ MenuItem.defaultProps = {
 	styles: {
 		fontSize: "25px",
 		marginRight: "50px",
+		// padding: "30px",
 	},
 };
 

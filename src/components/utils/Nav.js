@@ -1,5 +1,5 @@
 import React from "react";
-import Menu from "./Menu";
+import Menu from "../header/Menu";
 
 const Nav = props => {
 	const { content } = props;
