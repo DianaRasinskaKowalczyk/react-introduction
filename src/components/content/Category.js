@@ -8,6 +8,8 @@ const Category = props => {
 		listStyle: "none",
 		display: "flex",
 		flexDirection: "column",
+		paddingRight: "55px",
+		paddingTop: "50px",
 	};
 
 	return (
