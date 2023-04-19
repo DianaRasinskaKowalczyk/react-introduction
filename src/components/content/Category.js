@@ -10,10 +10,15 @@ const Category = props => {
 		flexDirection: "column",
 		paddingRight: "55px",
 		paddingTop: "50px",
+		marginLeft: "3px",
+	};
+
+	const asideStyles = {
+		width: "25%",
 	};
 
 	return (
-		<aside>
+		<aside style={asideStyles}>
 			<Menu menuItems={content} styles={categoryStyles} />
 		</aside>
 	);

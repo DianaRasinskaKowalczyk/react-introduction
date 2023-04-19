@@ -22,9 +22,9 @@ Content.defaultProps = {
 	styles: {
 		display: "flex",
 		flexDirection: "column",
-		// flexBasis: "75%",
+		width: "70%",
 
-		marginLeft: "155px",
-		marginRight: "180px",
+		// marginLeft: "155px",
+		// marginRight: "180px",
 	},
 };
